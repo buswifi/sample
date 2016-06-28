@@ -4,8 +4,8 @@ import com.linkedroad.util.constants.Constants;
 
 /**
  * 
- * @author Jason Yeoh
- *
+ * @author Zhiting Yang
+ * 
  */
 public class ShareResult {
   private String status;

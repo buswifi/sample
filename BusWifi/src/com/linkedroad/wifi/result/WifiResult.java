@@ -4,7 +4,7 @@ import com.linkedroad.share.result.ShareResult;
 
 /**
  * 
- * @author Jason Yeoh
+ * @author Zhiting Yang
  * 
  */
 public class WifiResult extends ShareResult {

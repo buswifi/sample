@@ -2,7 +2,7 @@ package com.linkedroad.share.model.wifi;
 
 /**
  * 
- * @author Jason Yeoh
+ * @author Zhiting Yang
  * 
  */
 public class Customer {

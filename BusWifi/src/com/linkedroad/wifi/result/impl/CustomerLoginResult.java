@@ -1,7 +1,5 @@
 package com.linkedroad.wifi.result.impl;
 
-//import com.fasterxml.jackson.annotation.JsonInclude;
-//import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.linkedroad.wifi.result.WifiResult;
 import com.linkedroad.util.constants.Constants;
 
@@ -10,12 +8,10 @@ import com.linkedroad.util.constants.Constants;
  * @author Jason Yeoh
  * 
  */
-//@JsonInclude(Include.NON_NULL)
 public class CustomerLoginResult  extends WifiResult{
 
   private Long userId;
   private String sessionKey;
-  // user properties
   private String email;
   private String phoneNumber;
   private String address;
@@ -29,7 +25,6 @@ public class CustomerLoginResult  extends WifiResult{
   }
 
   public CustomerLoginResult(String status) {
-    //super(status);
     if (status != Constants.LINKEDROAD_OK) {
       this.userId = null;
       this.sessionKey = null;

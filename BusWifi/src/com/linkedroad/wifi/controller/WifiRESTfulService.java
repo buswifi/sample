@@ -16,6 +16,11 @@ import com.linkedroad.util.exception.PipelineException;
 import com.linkedroad.util.pipeline.Pipeline;
 import com.linkedroad.wifi.payload.impl.CustomerLoginPayload;
 
+/**
+ * 
+ * @author Zhiting Yang
+ * 
+ */
 
 @Path("/wifi/")
 public class WifiRESTfulService {
@@ -35,10 +40,7 @@ public class WifiRESTfulService {
 	    try {
 	      payload = customerLoginPipeline.createPayload();
 	      payload.init();
-	      //payload.setEmail(guest.getEmail());
-	     // payload.setPhoneNumber(guest.getPhoneNumber());
 	      customerLoginPipeline.executeSynchronous(payload);
-	     // result = GsonUtil.getJson(payload.getResult());
 	      customerLoginPipeline.executeAsynchronous(payload);
 	    } catch (PipelineException e) {
 	      if (logger.isErrorEnabled()) {
@@ -47,9 +49,4 @@ public class WifiRESTfulService {
 	    }
 	    return result;
 	  }
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
 }

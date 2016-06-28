@@ -6,6 +6,11 @@ import org.slf4j.LoggerFactory;
 import com.linkedroad.util.stage.Stage;
 import com.linkedroad.wifi.payload.WifiPayload;
 
+/**
+ * 
+ * @author Zhiting Yang
+ * 
+ */
 public abstract class WifiStage <P extends WifiPayload<?>> implements Stage<P> {
 	  private static final Logger logger = LoggerFactory.getLogger(WifiStage.class);
 

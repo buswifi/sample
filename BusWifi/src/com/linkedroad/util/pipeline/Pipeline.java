@@ -3,7 +3,11 @@ package com.linkedroad.util.pipeline;
 import com.linkedroad.util.exception.PipelineException;
 import com.linkedroad.util.payload.Payload;
 
-
+/**
+ * 
+ * @author Zhiting Yang
+ * 
+ */
 public interface Pipeline<P extends Payload> {
   /*
    * The Name of this Pipeline.

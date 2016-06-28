@@ -1,5 +1,10 @@
 package com.linkedroad.util.constants;
 
+/**
+ * 
+ * @author Zhiting Yang
+ * 
+ */
 public class Constants {
 
   public static final String LINKEDROAD_OK = "0";

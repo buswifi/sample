@@ -5,9 +5,8 @@ import com.linkedroad.wifi.result.WifiResult;
 
 /**
  * 
- * @author Jason Yeoh
+ * @author Zhiting Yang
  * 
- * @param <R>
  */
 public abstract class WifiPayload<R extends WifiResult> extends SharePayload<R> {
 

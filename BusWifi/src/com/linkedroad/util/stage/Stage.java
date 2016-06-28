@@ -2,6 +2,11 @@ package com.linkedroad.util.stage;
 
 import com.linkedroad.util.payload.Payload;
 
+/**
+ * 
+ * @author Zhiting Yang
+ * 
+ */
 public interface Stage <P extends Payload>{
 	  void consume(P payload) throws Exception;
 

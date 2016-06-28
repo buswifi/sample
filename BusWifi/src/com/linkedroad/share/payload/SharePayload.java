@@ -7,9 +7,8 @@ import com.linkedroad.util.payload.Payload;
 
 /**
  * 
- * @author Jason Yeoh
+ * @author Zhiting Yang
  * 
- * @param <R>
  */
 public class SharePayload<R extends ShareResult> implements Payload {
 

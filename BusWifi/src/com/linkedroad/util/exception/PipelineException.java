@@ -1,5 +1,10 @@
 package com.linkedroad.util.exception;
 
+/**
+ * 
+ * @author Zhiting Yang
+ * 
+ */
 public class PipelineException extends Exception {
 
 	  private static final long serialVersionUID = 1L;

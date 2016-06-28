@@ -7,6 +7,11 @@ import org.springframework.stereotype.Component;
 import com.linkedroad.wifi.payload.impl.CustomerLoginPayload;
 import com.linkedroad.wifi.stage.WifiStage;
 
+/**
+ * 
+ * @author Zhiting Yang
+ * 
+ */
 @Component("customerLoginVerifyStage")
 public class CustomerLoginVerifyStage extends WifiStage<CustomerLoginPayload> {
 	@SuppressWarnings("unused")
@@ -14,7 +19,6 @@ public class CustomerLoginVerifyStage extends WifiStage<CustomerLoginPayload> {
 
 	@Override
 	public void consume(CustomerLoginPayload payload) throws Exception {
-		// TODO Auto-generated method stub
 		System.out.println("+++++++++++++++++customerLoginVerifyStage+++++++++++++");
 	}
 }

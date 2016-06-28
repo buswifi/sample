@@ -6,7 +6,7 @@ import com.linkedroad.wifi.result.impl.CustomerLoginResult;
 
 /**
  * 
- * @author Jason Yeoh
+ * @author Zhiting Yang
  * 
  */
 public class CustomerLoginPayload extends WifiPayload<CustomerLoginResult> {
